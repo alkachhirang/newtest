@@ -12,24 +12,28 @@ const BuyingPower = () => {
                 <p className='font-normal text-xs text-[#010101] opacity-[80%] leading-[160%] xl:max-w-[946px] text-center mb-[49px]'>Trading with leveraged accounts in CFDs provides traders with increased buying power, enabling them to attain superior results across various markets. By amplifying potential returns and accessing additional capital, traders can capitalize on market opportunities more effectively, enhancing their overall trading performance.</p>
                 <div className='flex flex-wrap flex-row justify-between mb-[42px]'>
                     <div className='lg:w-[49%] w-full relative'>
-                        <div className='bg-gradient-to-br from-[#034BDA] to-[#33A8FF] rounded-[24px] md:pt-[47.75px] md:pl-[82.32px] md:pr-[37.48px] p-[25px] lg:max-w-[558px] w-full max-h-[274px] h-full'>
-                            <div className='flex gap-[16.4px] items-center'>
+                        <div className='bg-gradient-to-br from-[#034BDA] to-[#33A8FF] rounded-[24px] md:pt-[47.75px] md:pl-[82.32px] md:pr-[37.48px] p-[25px] lg:max-w-[558px] w-full pb-[30px] lg:pb-0 max-h-[213px] sm:max-h-[150px] md:max-h-[274px] h-full'>
+                            <div className='flex max-sm:flex-col gap-[16.4px] items-center'>
                                 <img src={johnimg} alt="johnimg" className='max-w-[72px]' />
                                 <p className='leading-[150%] text-[#fff] text-xs '><span className='font-bold'>John</span> invested $250 without leverage, so his buying power was $250, and he could potentially earn up to $40.</p>
                             </div>
                         </div>
-                        <img src={card1} alt="card1" className='rounded-[16px] md:max-w-[687px] lg:max-w-[450px] xs:max-w-[474px] w-full lg:translate-x-[4%] xs:translate-x-[9%] lg:translate-y-[-21%] ' />
+                        <div className='mt-[30px] md:mt-0'>
+                            <img src={card1} alt="card1" className='rounded-[16px] md:max-w-[687px] lg:max-w-[450px] xs:max-w-[474px] w-full md:translate-x-[4%] xs:translate-x-[9%] md:translate-y-[-21%] ' />
+                        </div>
                     </div>
-                    {/* <div className='lg:w-[49%] w-full relative'>
-                        <div className='bg-gradient-to-br from-[#034BDA] to-[#33A8FF] rounded-[24px] md:pt-[47.75px] md:pl-[82.32px] md:pr-[37.48px] p-[25px] lg:max-w-[558px] w-full max-h-[274px] h-full'>
-                            <div className='flex gap-[16.4px] items-center'>
+                    <div className='lg:w-[49%] w-full mt-[50px] lg:mt-0'>
+                        <div className='bg-gradient-to-br from-[#034BDA] to-[#33A8FF] rounded-[24px] md:pt-[47.75px] md:pl-[82.32px] md:pr-[37.48px] p-[25px] lg:max-w-[558px] w-full pb-[30px] lg:pb-0 max-h-[283px] sm:max-h-[170px] md:max-h-[274px] h-full'>
+                            <div className='flex max-sm:flex-col gap-[16.4px] items-center'>
                                 <img src={mikeimg} alt="mikeimg" className='max-w-[72px]' />
                                 <p className='leading-[150%] text-[#fff] text-xs '><span className='font-bold'>Mike</span> invested the same amount but utilized leverage of 1 to 30, giving him a buying power of $7,500.
                                     With this leverage, Mike achieved returns of $1200, showcasing the significant impact of leveraging on potential gains.</p>
                             </div>
                         </div>
-                        <img src={card2} alt="card2" className='rounded-[16px] max-w-[324px] sm:max-w-[478px] md:max-w-[687px] lg:max-w-[450px] xs:max-w-[474px] w-full translate-x-[4%] xs:translate-x-[9%] lg:translate-y-[-21%] sm:translate-y-[-18%] translate-y-[-31%] ' />
-                    </div> */}
+                        <div className='mt-[30px] md:mt-0'>
+                            <img src={card2} alt="card2" className='rounded-[16px] md:max-w-[687px] lg:max-w-[450px] xs:max-w-[474px] w-full md:translate-x-[4%] xs:translate-x-[9%] md:translate-y-[-15%] ' />
+                        </div>
+                    </div>
 
                 </div>
                 <div className='flex justify-center items-center flex-col'>
