@@ -18,9 +18,9 @@ const BuyingPower = () => {
                                 <p className='leading-[150%] text-[#fff] text-xs '><span className='font-bold'>John</span> invested $250 without leverage, so his buying power was $250, and he could potentially earn up to $40.</p>
                             </div>
                         </div>
-                        <img src={card1} alt="card1" className='rounded-[16px] max-w-[324px] sm:max-w-[478px] md:max-w-[687px] lg:max-w-[450px] xs:max-w-[474px] w-full translate-x-[4%] xs:translate-x-[9%] lg:translate-y-[-21%] sm:translate-y-[-18%] translate-y-[-31%] ' />
+                        <img src={card1} alt="card1" className='rounded-[16px] md:max-w-[687px] lg:max-w-[450px] xs:max-w-[474px] w-full lg:translate-x-[4%] xs:translate-x-[9%] lg:translate-y-[-21%] ' />
                     </div>
-                    <div className='lg:w-[49%] w-full relative'>
+                    {/* <div className='lg:w-[49%] w-full relative'>
                         <div className='bg-gradient-to-br from-[#034BDA] to-[#33A8FF] rounded-[24px] md:pt-[47.75px] md:pl-[82.32px] md:pr-[37.48px] p-[25px] lg:max-w-[558px] w-full max-h-[274px] h-full'>
                             <div className='flex gap-[16.4px] items-center'>
                                 <img src={mikeimg} alt="mikeimg" className='max-w-[72px]' />
@@ -29,7 +29,7 @@ const BuyingPower = () => {
                             </div>
                         </div>
                         <img src={card2} alt="card2" className='rounded-[16px] max-w-[324px] sm:max-w-[478px] md:max-w-[687px] lg:max-w-[450px] xs:max-w-[474px] w-full translate-x-[4%] xs:translate-x-[9%] lg:translate-y-[-21%] sm:translate-y-[-18%] translate-y-[-31%] ' />
-                    </div>
+                    </div> */}
 
                 </div>
                 <div className='flex justify-center items-center flex-col'>

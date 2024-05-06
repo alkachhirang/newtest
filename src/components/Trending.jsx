@@ -10,8 +10,8 @@ const Trending = () => {
                     <h2 className='font-bold text-[30px] xl:text-xl text-[#FFFFFF] leading-[130%] text-center flex items-center justify-center gap-[15px] mb-[75px]'>Trending about<Nvidia /></h2>
                     <div className='flex flex-lg-row flex-col-reverse flex-wrap items-center justify-between'>
                         <div className='lg:w-[45%] w-full mt-[30px] lg:mt-0'>
-                            <h3 className='mb-[16px] font-bold text-lg text-[#FFFFFF] capitalize leading-[130%] text-center !lg:text-start'>NVIDIA Joins $110 Million Partnership to Help Universities Teach AI Skills</h3>
-                            <p className='text-[#FFFFFF] font-normal text-xs leading-[160%] !lg:text-start text-center'>The Biden Administration has announced a new $110 million AI partnership between Japan and the United States that includes an initiative to fund research through a collaboration between the University of Washington and the University of Tsukuba.</p>
+                            <h3 className='mb-[16px] font-bold text-lg text-[#FFFFFF] capitalize leading-[130%]'>NVIDIA Joins $110 Million Partnership to Help Universities Teach AI Skills</h3>
+                            <p className='text-[#FFFFFF] font-normal text-xs leading-[160%]'>The Biden Administration has announced a new $110 million AI partnership between Japan and the United States that includes an initiative to fund research through a collaboration between the University of Washington and the University of Tsukuba.</p>
                         </div>
                         <div className='lg:w-[49%] w-full'>
                             <img src={trendingimg} alt="trendingimg" className='rounded-[16px] w-full border-[4px] border-solid border-[#fff]' />
