@@ -1,32 +1,12 @@
-.glow-on-hover:before {
-    content: '';
-    background: linear-gradient(45deg, #002bff, #7a00ff);
-    background-size: 400%;
-    filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    animation: glowing 20s linear infinite;
-    transition: opacity .3s ease-in-out;
+.btn {
+    transition: all 300ms linear !important;
 }
 
-.glow-on-hover:after {
-    content: '';
-    background: linear-gradient(108.97deg, #034BDA 40.29%, #33A8FF 100.69%);
+.btn:hover {
+    box-shadow: 3px 3px 0px 0px #000000;
 }
 
-@keyframes glowing {
-    0% {
-        background-position: 0 0;
-    }
 
-    50% {
-        background-position: 400% 0;
-    }
-
-    100% {
-        background-position: 0 0;
-    }
-}
 .back_to_top {
     -webkit-animation: mover 3000ms infinite ease-in-out !important;
     animation: mover 3000ms infinite ease-in-out !important;

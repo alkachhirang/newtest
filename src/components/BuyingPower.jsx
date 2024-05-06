@@ -1,18 +1,18 @@
 import React from 'react';
-import johnimg from '../assets/images/png/john.png';
-import mikeimg from '../assets/images/png/mike.png';
-import card1 from '../assets/images/png/john-cardimg.png';
-import card2 from '../assets/images/png/mike-card.png';
+import johnimg from '../assets/images/webp/john.webp';
+import mikeimg from '../assets/images/webp/mike.webp';
+import card1 from '../assets/images/webp/john-cardimg.webp';
+import card2 from '../assets/images/webp/mike-card.webp';
 
 const BuyingPower = () => {
     return (
         <div className='xl:pt-[190px] lg:pt-[100px] md:pt-[70px] sm:pt-[50px] pt-[40px]'>
-            <div className='container lg:max-w-[1164px]'>
-                <h2 className='text-[#101010] text-[27px] sm:text-[36px] md:text-xl font-bold xl:max-w-[800px] leading-[130%] text-center mx-auto mb-[8px] sm:mb-[17px]'>Understanding Leveraged Accounts and Buying Power</h2>
+            <div className='container lg:max-w-[1164px] px-3'>
+                <h2 className='text-[#101010] text-[27px] sm:text-[36px] md:text-xl font-bold xl:max-w-[800px] leading-[130%] text-center mx-auto mb-[8px] sm:mb-[17px]' data-aos="fade-down">Understanding Leveraged Accounts and Buying Power</h2>
                 <div className='flex justify-center items-center'>
-                    <p className='font-normal text-xs text-[#010101] opacity-[80%] leading-[160%] xl:max-w-[946px] text-center mb-[30px] lg:mb-[49px]'>Trading with leveraged accounts in CFDs provides traders with increased buying power, enabling them to attain superior results across various markets. By amplifying potential returns and accessing additional capital, traders can capitalize on market opportunities more effectively, enhancing their overall trading performance.</p>
+                    <p className='font-normal text-xs text-[#010101] opacity-[80%] leading-[160%] xl:max-w-[946px] text-center mb-[30px] lg:mb-[49px]' data-aos="fade-down">Trading with leveraged accounts in CFDs provides traders with increased buying power, enabling them to attain superior results across various markets. By amplifying potential returns and accessing additional capital, traders can capitalize on market opportunities more effectively, enhancing their overall trading performance.</p>
                 </div>
-                <div className='flex flex-wrap flex-row justify-between mb-[30px] md:mb-[52px]'>
+                <div className='flex flex-wrap flex-row justify-between mb-[30px] md:mb-[52px] lg:mb-[72px]'>
                     <div className='lg:w-[49%] w-full relative'>
                         <div className='bg-gradient-to-br from-[#034BDA] to-[#33A8FF] rounded-[24px] md:pt-[47.75px] md:pl-[82.32px] md:pr-[37.48px] p-[25px] lg:max-w-[558px] w-full pb-[30px] lg:pb-0 md:max-h-[274px] md:h-full'>
                             <div className='flex max-sm:flex-col gap-[16.4px] items-center'>
@@ -37,8 +37,8 @@ const BuyingPower = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex justify-center items-center flex-col'>
-                    <button className="bg-gradient-to-br from-[#034BDA] to-[#33A8FF] shadow-[0_2px_10px_0_rgba(0,_0,_0,_0.15)] leading-[150%] capitalize text-nowrap transition-all ease-linear duration-500 py-[12px] px-[31.4px] text-xs font-semibold text-[#FFFFFF] rounded-[58px]">
+                <div className='flex justify-center items-center flex-col' data-aos="fade-up">
+                    <button className="bg-gradient-to-br from-[#034BDA] btn to-[#33A8FF] shadow-[0_2px_10px_0_rgba(0,_0,_0,_0.15)] leading-[150%] capitalize text-nowrap transition-all ease-linear duration-500 py-[12px] px-[31.4px] text-xs font-semibold text-[#FFFFFF] rounded-[58px]">
                         Maximize Your Profit
                     </button>
                     <p className='leading-[160%] text-[#020507] text-xs capitalize mt-[13px] font-normal text-center '>With Leveraged Accounts and Enhanced Buying Power Today!</p>
