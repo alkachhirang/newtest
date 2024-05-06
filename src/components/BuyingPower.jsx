@@ -19,7 +19,7 @@ const BuyingPower = () => {
                             </div>
                         </div>
                         <div className='mt-[30px] md:mt-0'>
-                            <img src={card1} alt="card1" className='rounded-[16px] md:max-w-[687px] lg:max-w-[450px] xs:max-w-[474px] w-full md:translate-x-[4%] xs:translate-x-[9%] md:translate-y-[-21%] ' />
+                            <img src={card1} alt="card1" className='rounded-[16px] md:max-w-[687px] lg:max-w-[450px] xs:max-w-[474px] w-full md:translate-x-[4%] xs:translate-x-[9%] md:translate-y-[-19%] ' />
                         </div>
                     </div>
                     <div className='lg:w-[49%] w-full mt-[50px] lg:mt-0'>
@@ -31,7 +31,7 @@ const BuyingPower = () => {
                             </div>
                         </div>
                         <div className='mt-[30px] md:mt-0'>
-                            <img src={card2} alt="card2" className='rounded-[16px] md:max-w-[687px] lg:max-w-[450px] xs:max-w-[474px] w-full md:translate-x-[4%] xs:translate-x-[9%] md:translate-y-[-15%] ' />
+                            <img src={card2} alt="card2" className='rounded-[16px] md:max-w-[687px] lg:max-w-[450px] xs:max-w-[474px] w-full md:translate-x-[4%] xs:translate-x-[9%] md:translate-y-[-19%] ' />
                         </div>
                     </div>
 
