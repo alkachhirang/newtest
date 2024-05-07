@@ -1,7 +1,6 @@
 import React from 'react';
 import { Nvidia } from './IconImg';
 import trendingimg from '../assets/images/webp/trendingimg.webp';
-// box - shadow: 0px 38px 0px - 9px #E8F1FD;
 
 
 const Trending = () => {

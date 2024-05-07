@@ -14,7 +14,7 @@ const Stocks = () => {
                         <div className="flex lg:flex-row flex-col flex-wrap justify-between">
                             <div className="lg:w-[53%] w-full">
                                 <div className='xl:max-w-[573px]'>
-                                    <p className="ff_inter text-[#010101] sm:text-[32px] text-[24px] leading-[140%] font-bold mb-2">
+                                    <p className="ff_inter text-[#010101]te xt-[22px] sm:text-[30px] md:text-lg leading-[140%] font-bold mb-2">
                                         Nvidia - AI GPU 1 year 228% Growth
                                     </p>
                                     <p className="leading-[160%] lg:max-w-[573px] ff_inter text-base text-[#010101] opacity-80 font-normal xl:mb-[35px] mb-[22px]">
