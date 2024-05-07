@@ -12,7 +12,7 @@ export const cardsdata = [
             "Microsoft A tech giant with diverse solutions for investors, including Azure cloud services.",
         cardbtn: "Read More",
         img: cardimg1,
-        width: 'max-w-[82px]',
+        width: 'sm:max-w-[82px] max-w-[70px]' ,
     },
     {
         heading: "Amazon AWS - AI 1 year 69% Growth ",
@@ -20,7 +20,7 @@ export const cardsdata = [
             "Amazon A tech juggernaut with AWS cloud services, offering diverse solutions for.",
         cardbtn: "Read More",
         img: cardimg2,
-        width: 'max-w-[92.32px]',
+        width: 'lg:max-w-[92.32px] max-w-[75px]',
     },
     {
         heading: "Palantir - AI Analytics 1 year 157% Growth ",

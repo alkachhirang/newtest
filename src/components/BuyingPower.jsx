@@ -14,7 +14,7 @@ const BuyingPower = () => {
                 </div>
                 <div className='flex flex-wrap flex-row justify-between mb-[30px] md:mb-[52px] lg:mb-[72px]'>
                     <div className='lg:w-[49%] w-full relative'>
-                        <div className='bg-gradient-to-br from-[#034BDA] to-[#33A8FF] rounded-[24px] md:pt-[47.75px] md:pl-[82.32px] md:pr-[37.48px] p-[25px] lg:max-w-[558px] w-full pb-[30px] lg:pb-0 md:max-h-[274px] md:h-full'>
+                        <div className='bg-gradient-to-br from-[#33A8FF] to-[#034BDA] rounded-[24px] md:pt-[47.75px] md:pl-[82.32px] md:pr-[37.48px] p-[25px] lg:max-w-[558px] w-full pb-[30px] lg:pb-0 md:max-h-[274px] md:h-full'>
                             <div className='flex max-sm:flex-col gap-[16.4px] items-center'>
                                 <img src={johnimg} alt="johnimg" className='max-w-[72px]' />
                                 <p className='leading-[150%] text-[#fff] text-xs '><span className='font-bold'>John</span> invested $250 without leverage, so his buying power was $250, and he could potentially earn up to $40.</p>
@@ -25,7 +25,7 @@ const BuyingPower = () => {
                         </div>
                     </div>
                     <div className='lg:w-[49%] w-full mt-[30px] !sm:mt-[50px]  lg:mt-0'>
-                        <div className='bg-gradient-to-br from-[#034BDA] to-[#33A8FF] rounded-[24px] md:pt-[20px] md:pl-[22px] md:pr-[31.2px] p-[25px] lg:max-w-[558px] w-full pb-[20px] lg:pb-0 md:max-h-[274px] md:h-full'>
+                        <div className='bg-gradient-to-br from-[#33A8FF] to-[#034BDA] rounded-[24px] md:pt-[20px] md:pl-[22px] md:pr-[31.2px] p-[25px] lg:max-w-[558px] w-full pb-[20px] lg:pb-0 md:max-h-[274px] md:h-full'>
                             <div className='flex max-sm:flex-col gap-[16.4px] items-center'>
                                 <img src={mikeimg} alt="mikeimg" className='max-w-[72px]' />
                                 <p className='leading-[150%] text-[#fff] text-xs '><span className='font-bold'>Mike</span> invested the same amount but utilized leverage of 1 to 30, giving him a buying power of $7,500.
