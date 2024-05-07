@@ -12,7 +12,7 @@ const BuyingPower = () => {
                 <div className='flex justify-center items-center'>
                     <p className='font-normal text-xs text-[#010101] opacity-[80%] leading-[160%] xl:max-w-[946px] text-center mb-[30px] lg:mb-[49px]' data-aos="fade-down">Trading with leveraged accounts in CFDs provides traders with increased buying power, enabling them to attain superior results across various markets. By amplifying potential returns and accessing additional capital, traders can capitalize on market opportunities more effectively, enhancing their overall trading performance.</p>
                 </div>
-                <div className='flex flex-wrap flex-row justify-between mb-[30px] md:mb-[52px] lg:mb-[72px]'>
+                <div className='flex flex-wrap flex-row justify-between mb-[30px] md:mb-[52px] lg:mb-[82px]'>
                     <div className='lg:w-[49%] w-full relative'>
                         <div className='bg-gradient-to-br from-[#33A8FF] to-[#034BDA] rounded-[24px] md:pt-[47.75px] md:pl-[82.32px] md:pr-[37.48px] p-[25px] lg:max-w-[558px] w-full pb-[30px] lg:pb-0 md:max-h-[274px] md:h-full'>
                             <div className='flex max-sm:flex-col gap-[16.4px] items-center'>
