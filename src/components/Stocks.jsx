@@ -23,8 +23,8 @@ const Stocks = () => {
                                         dominance in gaming and data center markets,{" "}
                                     </p>
                                     <button className="capitalize bg-gradient-to-br from-[#33A8FF] to-[#33A8FF] bg-clip-text text-transparent inline-block hover:shadow-[0_2px_10px_0_rgba(3,_75,_218,_1)] leading-[150%] font-bold py-[11px] px-[27.5px] !rounded-[58px] border-[1px] border-solid border-[#33A8FF] transition-all ease-linear duration-300">
-                                            Read More
-                                        </button>
+                                        Read More
+                                    </button>
                                 </div>
                             </div>
                             <div className="lg:w-[42%] w-full mt-6 lg:mt-0 flex justify-center lg:justify-end">
@@ -35,33 +35,33 @@ const Stocks = () => {
                     <div className="flex flex-row gap-[16px] xl:gap-[20px] flex-wrap max-md:justify-center justify-between">
                         {cardsdata.map((data, index) => {
                             return (
-                                <>
-                                    <div className='lg:w-[31%] xl:w-[32%] w-full' data-aos="zoom-in-up">
-                                        <div
-                                            key={index}
-                                            className="bg-white flex flex-col justify-between xl:max-w-[364px] lg:max-w-[317px] w-full h-full min-h-[180px] lg:min-h-[228px] rounded-[16px] py-[15px] pl-[15px] pr-[14.54px]"
-                                        >
-                                            <div>
-                                                <p className="text-[#010101] leading-[140%] text-base ff_inter font-bold mb-2">
-                                                    {data.heading}
-                                                </p>
-                                                <p className="leading-[160%] ff_inter font-normal mb-2 text-base text-[#010101]">
-                                                    {data.paragraph}
-                                                </p>
-                                            </div>
-                                            <div className="flex justify-between items-center">
-                                                <button className="leading-[150%] ff_inter text-base font-bold  bg-gradient-to-br from-[#034BDA] to-[#33A8FF] bg-clip-text text-transparent inline-block relative after:absolute after:h-[2px] after:w-full after:bg-gradient-to-br from-[#034BDA] to-[#33A8FF] after:bottom-0 after:left-0">
-                                                    {data.cardbtn}
-                                                </button>
-                                                <img
-                                                    src={data.img}
-                                                    alt="cardsimg"
-                                                    className={`${data.width} w-full`}
-                                                />
-                                            </div>
+
+                                <div key={index} className='lg:w-[31%] xl:w-[32%] w-full' data-aos="zoom-in-up">
+                                    <div
+
+                                        className="bg-white flex flex-col justify-between xl:max-w-[364px] lg:max-w-[317px] w-full h-full min-h-[180px] lg:min-h-[228px] rounded-[16px] py-[15px] pl-[15px] pr-[14.54px]"
+                                    >
+                                        <div>
+                                            <p className="text-[#010101] leading-[140%] text-base ff_inter font-bold mb-2">
+                                                {data.heading}
+                                            </p>
+                                            <p className="leading-[160%] ff_inter font-normal mb-2 text-base text-[#010101]">
+                                                {data.paragraph}
+                                            </p>
+                                        </div>
+                                        <div className="flex justify-between items-center">
+                                            <button className="leading-[150%] ff_inter text-base font-bold  bg-gradient-to-br from-[#034BDA] to-[#33A8FF] bg-clip-text text-transparent inline-block relative after:absolute after:h-[2px] after:w-full after:bg-gradient-to-br from-[#034BDA] to-[#33A8FF] after:bottom-0 after:left-0">
+                                                {data.cardbtn}
+                                            </button>
+                                            <img
+                                                src={data.img}
+                                                alt="cardsimg"
+                                                className={`${data.width} w-full`}
+                                            />
                                         </div>
                                     </div>
-                                </>
+                                </div>
+
                             );
                         })}
                     </div>
