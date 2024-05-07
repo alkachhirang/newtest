@@ -61,7 +61,6 @@ const Stocks = () => {
                                         </div>
                                     </div>
                                 </div>
-
                             );
                         })}
                     </div>
