@@ -5,7 +5,7 @@ import { cardsdata } from "./Mapdata";
 const Stocks = () => {
     return (
         <>
-            <div className="max-w-[1384px] xl:mb-[130px] xl:mt-[194.6px] lg:my-[100px] md:my-[70px] sm:my-[50px] my-[40px] bg-gradient-to-br from-[#034BDA] to-[#33A8FF] md:shadow-[0_38px_0px_0px_rgba(232,_241,_253,_1)] pt-[40px] sm:pt-[50px] md:pt-[70px] xl:pt-[89.76px] xl:pb-[127.15px] lg:pb-[100px] md:pb-[70px] sm:pb-[50px] pb-[40px] mx-auto lg:rounded-[34px]">
+            <div className="max-w-[1384px] xl:mb-[130px] xl:mt-[194.6px] lg:my-[100px] md:my-[70px] sm:my-[50px] my-[40px] bg-gradient-to-br from-[#034BDA] to-[#33A8FF] md:shadow-[0_38px_0px_-9px_rgba(232,_241,_253,_1)] pt-[40px] sm:pt-[50px] md:pt-[70px] xl:pt-[89.76px] xl:pb-[127.15px] lg:pb-[100px] md:pb-[70px] sm:pb-[50px] pb-[40px] mx-auto lg:rounded-[34px]">
                 <div className="container xl:max-w-[1164px] px-3 mx-auto">
                     <h2 className="capitalize font-bold text-[27px] sm:text-[36px] md:text-xl text-white leading-[130%] text-center sm:mb-[48.9px] mb-[30px]" data-aos="fade-down">
                         Top 7 AI Stocks
