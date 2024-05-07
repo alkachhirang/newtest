@@ -38,7 +38,7 @@ const BuyingPower = () => {
                     </div>
                 </div>
                 <div className='flex justify-center items-center flex-col' data-aos="fade-up">
-                    <button className="bg-gradient-to-br from-[#034BDA] border-none btn to-[#33A8FF] shadow-[0_2px_10px_0_rgba(0,_0,_0,_0.15)] leading-[150%] capitalize text-nowrap transition-all ease-linear duration-500 py-[12px] px-[31.4px] text-xs font-semibold text-[#FFFFFF] rounded-[58px]">
+                    <button className="border-none btn bg-gradient-to-br from-[#33A8FF] to-[#034BDA] shadow-[0_2px_10px_0_rgba(0,_0,_0,_0.15)] leading-[150%] capitalize text-nowrap transition-all ease-linear duration-500 py-[12px] px-[31.4px] text-xs font-semibold text-[#FFFFFF] rounded-[58px]">
                         Maximize Your Profit
                     </button>
                     <p className='leading-[160%] text-[#020507] text-xs capitalize mt-[13px] font-normal text-center '>With Leveraged Accounts and Enhanced Buying Power Today!</p>

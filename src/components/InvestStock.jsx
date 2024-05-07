@@ -30,7 +30,7 @@ const InvestStock = () => {
                 </div>
                 <div className='flex max-lg:flex-col justify-center items-center gap-[18px] lg:gap-[22px]' data-aos="fade-up">
                     <p className='font-normal text-sm text-[#101010] leading-[130%]'>and a 100s of reasons</p>
-                    <button className="bg-gradient-to-br from-[#034BDA] to-[#33A8FF] shadow-[0_2px_10px_0_rgba(0,_0,_0,_0.15)] btn leading-[150%] capitalize text-nowrap transition-all ease-linear duration-500 py-[11px] px-[29.1px] text-xs font-semibold text-[#FFFFFF] rounded-[58px] border-none">
+                    <button className="bg-gradient-to-br from-[#33A8FF] to-[#034BDA] shadow-[0_2px_10px_0_rgba(0,_0,_0,_0.15)] btn leading-[150%] capitalize text-nowrap transition-all ease-linear duration-500 py-[11px] px-[29.1px] text-xs font-semibold text-[#FFFFFF] rounded-[58px] border-none">
                         Invest Now
                     </button>
                 </div>
