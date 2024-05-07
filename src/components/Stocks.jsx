@@ -22,7 +22,7 @@ const Stocks = () => {
                                         innovation, offers investors compelling opportunities. With
                                         dominance in gaming and data center markets,{" "}
                                     </p>
-                                    <button className="capitalize bg-gradient-to-br from-[#33A8FF] to-[#33A8FF] bg-clip-text text-transparent inline-block hover:shadow-[0_2px_10px_0_rgba(0,_0,_0,_2)] leading-[150%] font-bold py-[11px] px-[27.5px] !rounded-[58px] border-[1px] border-solid border-[#33A8FF] transition-all ease-linear duration-300">
+                                    <button className="capitalize bg-gradient-to-br from-[#33A8FF] to-[#33A8FF] bg-clip-text text-transparent inline-block hover:shadow-[0_2px_10px_0_rgba(3,_75,_218,_1)] leading-[150%] font-bold py-[11px] px-[27.5px] !rounded-[58px] border-[1px] border-solid border-[#33A8FF] transition-all ease-linear duration-300">
                                             Read More
                                         </button>
                                 </div>
